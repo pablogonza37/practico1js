@@ -1,6 +1,6 @@
-// Crear dos variables y asignarles valores numéricos
-let numero1 = 25;
-let numero2 = 5;
+// variables
+const numero1 = parseInt(prompt("Ingrese un numero del 1 al 100"));
+const numero2 = parseInt(prompt("Ingrese otro numero del 1 al 100"));
 
 // Realizar las operaciones
 let suma = numero1 + numero2;
