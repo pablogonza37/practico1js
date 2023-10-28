@@ -9,4 +9,4 @@ let nombreCompleto = "Mi nombre completo es " + nombre + " " + apellido;
 
 // Mostrar variable 
 
-console.log(nombreCompleto);
+alert(nombreCompleto);

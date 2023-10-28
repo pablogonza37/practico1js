@@ -23,7 +23,7 @@ if (numero3 > numero_mayor){
     numero_mayor = numero3;
 }
 
-console.log(`El mayor de los 3 numeros es el ${numero_mayor}`);
+alert(`El mayor de los 3 numeros es el ${numero_mayor}`);
 
 
 

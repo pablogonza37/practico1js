@@ -1,5 +1,5 @@
 // variable  en grados Celsius
-let gradosCelsius = 30;
+let gradosCelsius = parseInt(prompt("Ingrese un numero: "));
 
 // Calcular grados Fahrenheit 
 let gradosFahrenheit = (gradosCelsius * 9/5) + 32;

@@ -7,6 +7,6 @@ input: Coder
 Output: Hola Coder
 */
 
-nombre = prompt("escriba su nombre: ");
+let nombre = prompt("escriba su nombre: ");
 
-console.log("hola ", nombre);
+alert(`Hola ${nombre}`);

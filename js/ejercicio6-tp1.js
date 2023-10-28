@@ -11,7 +11,7 @@ let numeroA = parseInt(prompt("digite un numero: "));
 let numeroB = parseInt(prompt("digite otro numero: "));
 
 if (numeroA > numeroB){
-    console.log(`El mayor de los numeros es el ${numeroA}`);
+    alert(`El mayor de los numeros es el ${numeroA}`);
 }else {
-    console.log(`El mayor de los numeros es el ${numeroB}`);
+    alert(`El mayor de los numeros es el ${numeroB}`);
 }
