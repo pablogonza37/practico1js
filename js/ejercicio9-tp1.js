@@ -8,7 +8,7 @@ input: Hola mundo
 Output: oauo
 */
 
-let cadena = prompt("escriba una frase: ");
+let cadena = prompt("escriba una frase: ").toLowerCase();
 
 for (i = 0; i < cadena.length; i++) {
   if (
@@ -18,6 +18,6 @@ for (i = 0; i < cadena.length; i++) {
     cadena.charAt(i) == "o" ||
     cadena.charAt(i) == "u"
   ) {
-    console.log(cadena.charAt(i));
+    document.write(cadena.charAt(i));
   }
 }
